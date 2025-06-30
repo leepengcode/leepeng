@@ -46,7 +46,7 @@ const Portfolio = () => {
     "Vue 3",
     "Laravel",
     "Flutter",
-    "Node.js",
+
     "Tailwind CSS",
     "Git",
     "Cloud Server",
