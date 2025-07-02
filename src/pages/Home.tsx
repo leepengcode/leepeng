@@ -399,7 +399,7 @@ const Portfolio = () => {
         <section id="contact" className="py-24 bg-gray-50 -mx-6 px-6">
           <div data-aos="fade-up">
             <div className="text-center mb-12 max-w-2xl mx-auto">
-              <h2 className="text-4xl font-bold">Let's Connect!</h2>
+              <h2 className="text-4xl lg:pb-10 font-bold">Let's Connect!</h2>
               <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-blue-500 mx-auto mt-4 mb-6 rounded-full"></div>
               <p className="text-lg text-gray-600">
                 Have a project in mind or just want to say hello? My inbox is
