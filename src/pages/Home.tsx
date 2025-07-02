@@ -7,7 +7,6 @@ import {
   Code,
   Github,
   Globe,
-  Linkedin,
   MapPin,
   Menu,
   MessageCircle,
@@ -415,9 +414,7 @@ const Portfolio = () => {
                 norngliipeng98@gmail.com
               </a>
               <div className="flex justify-center space-x-6 mt-8">
-                <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
-                  <Linkedin size={28} />
-                </a>
+
                 <a href="https://github.com/leepengcode" className="text-gray-500 hover:text-gray-800 transition-colors">
                   <Github size={28} />
                 </a>
