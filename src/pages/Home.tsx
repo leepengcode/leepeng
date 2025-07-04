@@ -55,7 +55,7 @@ const Portfolio = () => {
   }, [isMenuOpen]);
 
   // --- Handlers ---
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       const headerHeight = 80;
