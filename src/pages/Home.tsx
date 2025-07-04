@@ -289,7 +289,7 @@ const Portfolio = () => {
                   <div className="flex items-center gap-3">
                     <Users className="w-8 h-8 text-blue-500" />
                     <div>
-                      <p className="font-bold">10+ Projects</p>
+                      <p className="font-bold">3+ Projects</p>
                       <p className="text-sm text-gray-500">Completed</p>
                     </div>
                   </div>
@@ -429,17 +429,11 @@ const Portfolio = () => {
 
       {/* ===== Footer ===== */}
       <footer className="bg-gray-900 text-white">
-        <div className="max-w-6xl mx-auto px-6 py-8">
-          <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-            <div className="text-gray-400 mb-4 md:mb-0">
-              <p>&copy; {new Date().getFullYear()} Norng Peng. All rights reserved.</p>
-            </div>
-            <div className="text-gray-500 text-sm">
-              <p>Built with React, TypeScript & Tailwind CSS</p>
-            </div>
-          </div>
+        <div className="w-full flex items-center justify-center px-6 py-8">
+          <p>&copy; {new Date().getFullYear()} Norng Peng. All rights reserved.</p>
         </div>
       </footer>
+
     </div>
   );
 };
